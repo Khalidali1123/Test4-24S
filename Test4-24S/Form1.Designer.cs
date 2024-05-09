@@ -39,35 +39,38 @@
             // 
             // textBox1
             // 
-            textBox1.Font = new Font("Segoe UI", 14F);
+            textBox1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
             textBox1.Location = new Point(13, 14);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(132, 32);
             textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button1
             // 
-            button1.Font = new Font("Segoe UI", 14F);
+            button1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
             button1.Location = new Point(29, 63);
             button1.Name = "button1";
             button1.Size = new Size(100, 42);
             button1.TabIndex = 2;
             button1.Text = "Add";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Font = new Font("Segoe UI", 14F);
+            button2.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
             button2.Location = new Point(29, 126);
             button2.Name = "button2";
             button2.Size = new Size(100, 42);
             button2.TabIndex = 2;
             button2.Text = "Remove";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // textBox2
             // 
-            textBox2.Font = new Font("Segoe UI", 14F);
+            textBox2.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
             textBox2.Location = new Point(185, 22);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(132, 32);
@@ -75,7 +78,7 @@
             // 
             // textBox3
             // 
-            textBox3.Font = new Font("Segoe UI", 14F);
+            textBox3.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
             textBox3.Location = new Point(185, 60);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(132, 32);
@@ -83,7 +86,7 @@
             // 
             // textBox4
             // 
-            textBox4.Font = new Font("Segoe UI", 14F);
+            textBox4.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
             textBox4.Location = new Point(185, 98);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(132, 32);
@@ -91,7 +94,7 @@
             // 
             // textBox5
             // 
-            textBox5.Font = new Font("Segoe UI", 14F);
+            textBox5.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
             textBox5.Location = new Point(185, 136);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(132, 32);
